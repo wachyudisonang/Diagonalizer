@@ -1,0 +1,185 @@
+.accordion-a section + section {
+/*margin-top: 10px;*/
+}
+
+
+/*
+Header
+---------- */
+
+.js .accordion-a section[aria-expanded="true"] header:before {
+visibility: hidden;
+}
+
+.accordion-a section header {
+/*background-color: #F3F3F3;
+padding: 5px 5px 5px 35px;*/
+position: relative;
+}
+
+/*.js .accordion-a section header:after {
+height: 2px;
+left: 0;
+top: 5px;
+width: 12px;
+}
+
+.js .accordion-a section header:after,
+.js .accordion-a section header:before {
+background-color: #CCCCCC;
+content: "";
+display: block;
+margin: 12px 0 0 7px;
+position: absolute;
+}
+
+.js .accordion-a section header:before {
+height: 12px;
+left: 5px;
+top: 0;
+width: 2px;
+}*/
+
+.accordion-a section header h1 {
+color: #777777;
+font-size: 17px;
+font-weight: normal;
+margin: 0;
+}
+
+
+/*
+Content
+---------- */
+
+.accordion-a section .content {
+color: #474747;
+font-size: 15px;
+/*padding: 20px 20px 20px 35px;*/
+padding: 15px 20px;
+position: relative;
+}
+
+
+/*
+Content child elements styling
+---------- */
+
+.accordion-a section .content blockquote {
+color: #CCCCCC;
+font-size: 22px;
+font-style: italic;
+margin: 15px 0;
+}
+
+.accordion-a section .content :first-child {
+margin-top: 0;
+}
+
+.accordion-a section .content h1 {
+font-size: 13px;
+margin: 30px 0 0 0;
+}
+
+.accordion-a section .content :last-child {
+margin-bottom: 0;
+/*padding-top: 0;*/
+}
+
+.accordion-a section .content ol li + li {
+margin-top: 5px;
+}
+
+.accordion-a section .content p {
+margin: 15px 0;
+/*line-height: 54px;*/
+/*padding-top: 15px;*/
+}
+
+.accordion-a section .content pre {
+border: 3px solid #F3F3F3;
+border-radius: 5px;
+font-family: "Courier New", Courier, monospace;
+margin: 15px 0;
+padding: 10px;
+white-space: pre-wrap;
+}
+
+.accordion-a.dark section .content pre {
+background-color: rgba(255, 255, 255, 0.05);
+border: none;
+border-radius: 5px;
+}
+
+.accordion-a section .content textarea {
+max-height: 500px;
+max-width: 100%;
+}
+
+
+
+/*
+Color schemes
+---------------------------------------------------------------------------------------------------- */
+
+.accordion-a.dark section .content {
+color: #DDDDDD;
+}
+
+.accordion-a.dark section .content blockquote {
+color: #777777;
+}
+
+.accordion-a.dark section .content pre {
+background-color: rgba(255, 255, 255, 0.05);
+border: none;
+border-radius: 5px;
+color: #CCCCCC;
+}
+
+.accordion-a.dark section header {
+background: none;
+}
+
+.accordion-a.dark section header h1 {
+border-bottom: 2px solid;
+-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.7);
+   -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.7);
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.7);
+display: inline-block;
+padding: 5px 10px;
+text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+}
+
+
+/*
+Dark chestnut
+---------- */
+
+.accordion-a.dark.chestnut section header h1 {
+background-color: #986960;
+border-bottom-color: #664642;
+color: #261A18;
+}
+
+
+/*
+Dark lavender
+---------- */
+
+.accordion-a.dark.lavender section header h1 {
+background-color: #734F96;
+border-bottom-color: #4C3666;
+color: #100C16;
+}
+
+
+/*
+Dark olive
+---------- */
+
+.accordion-a.dark.olive section header h1 {
+background-color: #556B2F;
+border-bottom-color: #3E4C22;
+color: #14190B;
+}

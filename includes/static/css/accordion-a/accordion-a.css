@@ -1,0 +1,46 @@
+.accordion-a,
+.accordion-a section,
+.accordion-a section header {
+display: block;
+}
+
+.js .accordion-a section header {
+cursor: pointer;
+}
+
+/*  Webkit keyboard focus outline only */
+.js .accordion-a section header:active,
+.js .accordion-a section header.no-outline {
+outline: none;
+}
+
+.js .accordion-a section header:focus {
+z-index: 999;
+}
+
+.accordion-a section .content {
+overflow: hidden;
+}
+
+.js .accordion-a section[aria-expanded="true"] .content {
+visibility: visible;
+}
+
+.js .accordion-a section[aria-expanded="false"] .content {
+padding-bottom: 0;
+padding-top: 0;
+visibility: hidden;
+}
+
+.js .accordion-a:not(.no-transition) section .content:not(.no-transition) {
+-webkit-transition-duration: 0.25s;
+   -moz-transition-duration: 0.25s;
+     -o-transition-duration: 0.25s;
+    -ms-transition-duration: 0.25s;
+        transition-duration: 0.25s;
+-webkit-transition-property: height, padding-bottom, padding-top, visibility;
+   -moz-transition-property: height, padding-bottom, padding-top, visibility;
+     -o-transition-property: height, padding-bottom, padding-top, visibility;
+    -ms-transition-property: height, padding-bottom, padding-top, visibility;
+        transition-property: height, padding-bottom, padding-top, visibility;
+}

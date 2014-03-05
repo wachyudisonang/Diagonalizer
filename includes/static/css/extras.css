@@ -1,0 +1,354 @@
+/*------------------------------------------------------------------
+Project     :   Diagonalizer
+Version     :   1.0
+Last change :   23/01/2014 11:25
+
+[Layout]    
+
+* body
+    + Sub Header / #subheaders
+    + Header / #headers
+        - Logo / .navbar-header
+        - Navigation / .navbar-collapse    
+    + Content / #contents
+        - Title / .page-header
+        - Content Field / .container
+            - Main Content / .main
+            - Sidebar / .sidebar
+    + Footer / #footers
+
+
+-------------------------------------------------------------------*/
+
+.sub-wrapper{
+    margin:auto;
+}
+.sub-wrapper:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+
+/*------------------------------------------------------------------
+    Top Header
+-------------------------------------------------------------------*/
+#topheaders {
+    background-color: #267BB6;
+    background-image: -webkit-linear-gradient(bottom, #267BB6 15%, #338FCE 100%);
+    background-image: linear-gradient(to top, #267BB6 15%, #338FCE 100%);
+    border-color: #0D5E94;
+}
+.topheader {
+    line-height: 32px;
+    font-size: 12px;
+    text-align: center;
+}
+.topheader ul {
+    padding: 0;
+    margin: 0;
+}
+.th-items {
+    display: inline;
+    float: none;
+    margin: 0 18px 0 0;
+}
+.th-items.social,
+.th-items i {
+    font-size: 14px;
+}
+.th-items:last-child {
+    margin-right: 0;
+}
+.th-items a {
+    color: #fff;
+    line-height: inherit;
+    margin: 0 9px;
+}
+.th-items a:first-child {
+    margin-left: 0;
+}
+.th-items a:last-child {
+    margin-right: 0;
+}
+.th-items a > * {
+    vertical-align: top;
+}
+.th-items i {
+    line-height: inherit;
+}
+.th-items span {
+    display: none;
+    margin: 0 7px;
+}
+.topheader .search {
+    height: inherit;
+    padding: 4px 0;
+}
+.topheader .search .search-field {
+    background: url(../img/search-dark.png) no-repeat 10px 6px #444;
+    border: 0 none;
+    font-size: 12px;
+    color: #777;
+    width: 200px;
+    padding: 4px 15px 4px 35px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    height: 25px;
+}
+.topheader .search .search-field:focus {
+    background-color: #FFFFFF;
+    width: 350px;
+}
+
+
+/*------------------------------------------------------------------
+    Sub Header
+-------------------------------------------------------------------*/
+#subheaders {
+    text-align: center;
+    width: 100%;
+}
+#subheaders .top_static_img { 
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}
+#subheaders .sum { 
+    padding-top: 70px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 300;
+    color: #fff;
+}
+
+
+/*------------------------------------------------------------------
+    Header / #headers
+-------------------------------------------------------------------*/
+#headers {
+    margin-bottom: 0;
+    border: none;
+}
+.page-header.wrapper {
+	padding: 0 15px 9px;
+}
+.page-header .sub-wrapper {
+    margin: auto;
+    border-bottom: 1px solid #EEEEEE;
+}
+.navbar-default {
+    line-height: 120px;
+}
+.navbar-big .container {
+    line-height: 85px;
+}
+.navbar-big .navbar-brand {
+    line-height: inherit;
+}
+.nav-main {
+    line-height: 30px;
+    margin-top: 30px;
+}
+.nav-main ul {
+    float: right;
+}
+.nav-main a {
+    /*color: #fff;*/
+}
+.nav-main .nav > li > a:hover, .nav-main .nav > li > a:focus {
+    background: none;
+}
+
+/*------------------------------------------------------------------
+    Navigation / .navbar-collapse  
+-------------------------------------------------------------------*/
+.navbar-default .navbar-nav > li > a, .navbar-brand.text {
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: inherit;
+}
+.navbar-default .sub-wrapper {
+    height: 100%;
+}
+.navbar-header {
+    height: 100%;
+}
+.navbar-brand {
+    float: none;
+    padding: 0;
+    display: inline-block;
+    height: 100%;
+}
+
+/*------------------------------------------------------------------
+    Content
+-------------------------------------------------------------------*/
+/*.wrap:before, .wrap:after {
+    content: " ";
+    display: table;
+}
+.wrap:after {
+    clear: both;
+}
+.wrap:before, .wrap:after {
+    content: " ";
+    display: table;
+}
+.wrap:after {
+    clear: both;
+}
+.content:before, .content:after {
+    content: " ";
+    display: table;
+}
+.content:after {
+    clear: both;
+}
+.content:before, .content:after {
+    content: " ";
+    display: table;
+}
+.content:after {
+    clear: both;
+}*/
+/*.wrapper.no-sidebar {
+    padding: 0 15px;
+}*/
+#contents {
+    /*padding-top: 75px;*/
+}
+.wrapper {
+    padding: 0 15px;
+}
+#contents .container .wrapper {
+    padding: 0;
+}
+.btm_static_img {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-origin: padding-box;
+    background-position: center center !important;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+
+/*------------------------------------------------------------------
+    Main Content
+-------------------------------------------------------------------*/
+.g-cols:before, .g-cols:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.g-cols:after {
+    clear: both;
+}
+.post-meta {
+    margin-bottom: 30px;
+}
+.icons {
+    display: inline-block;
+    margin-right: 40px;
+}
+.icons i,
+.iconist {
+    vertical-align: middle;
+}
+
+/*------------------------------------------------------------------
+    Footer
+-------------------------------------------------------------------*/
+footer {
+    color: #65C6EF;
+}
+footer .wrapper.top {
+    background: #0A739F;
+}
+footer .wrapper.top .sub-wrapper {
+    padding: 50px 0 40px;
+}
+footer .wrapper.bottom {
+    background: #0D506C;
+}
+footer .wrapper.bottom .sub-wrapper {
+    padding: 15px 0;
+}
+footer .wrapper.bottom .sub-wrapper p {
+    margin: 0;
+}
+
+
+/* smaller phone view */
+@media (min-width: 481px) {
+    .th-items span {display: inline-block}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px) {
+	.sub-wrapper{max-width:720px}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px) {
+	.sub-wrapper{max-width:910px}
+    .topheader .left li {float: left}
+    .topheader .right {float: right}
+    .topheader li {float: left}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width:1200px) {
+	.sub-wrapper{max-width:1100px}
+    .main-float-right main.main {float: right}
+}
+
+
+.entry-image img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+.entry-content, .entry-summary {
+    padding: 30px 0;
+}
+
+/*------------------------------------------------------------------
+    Debug Objects [plugin]
+-------------------------------------------------------------------*/
+div#debugobjects {
+    background: #fff;
+    color: #000;
+    margin: 30px auto;
+    width: 90%;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
