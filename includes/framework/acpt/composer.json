@@ -1,0 +1,18 @@
+{
+    "name": "robojuice/acpt",
+    "type": "library",
+    "description": "Dev Framework for WordPress",
+    "keywords": ["wordpress","acpt"],
+    "homepage": "http://github.com/kevindees/advanced_custom_post_types",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Kevin Dees",
+            "homepage": "http://robojuice.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}

@@ -1,0 +1,85 @@
+/* Messages */
+.message-success {
+	color:#749747 !important;
+	background:#eff4e8 !important;
+	border:1px solid #e2e9d9 !important;
+}
+
+.message-error {
+	color:#A64B49 !important;
+	background:#fee !important;
+	border:1px solid #ffe1e0 !important;
+}
+
+.scpt-field-wrap {
+	margin: 10px 0;
+}
+label.scpt-meta-label {
+	font-weight: bold;
+	display: block;
+}
+span.scpt-option {
+	display: block;
+	padding: 3px 0 3px 15px;
+}
+label.scpt-meta-label.choice {
+	display: inline;
+	font-weight: normal;
+	margin-left: 5px;
+}
+textarea.scpt-field {
+	width: 100%;
+	max-width: 800px;
+	height: 100px;
+}
+select.scpt-field {
+	width: 200px;
+}
+#side-sortables input[type="text"].scpt-field,
+#side-sortables input[type="date"].scpt-field,
+#side-sortables input[type="email"].scpt-field,
+#side-sortables input[type="url"].scpt-field,
+#side-sortables input[type="datetime"].scpt-field,
+#side-sortables input[type="color"].scpt-field,
+#side-sortables input[type="number"].scpt-field,
+#side-sortables input[type="tel"].scpt-field,
+#side-sortables input[type="time"].scpt-field,
+#side-sortables input[type="range"].scpt-field,
+#side-sortables textarea.scpt-field,
+#side-sortables select.scpt-field {
+	max-width: 100%;
+}
+#side-sortables select.scpt-field {
+	width: 100%;
+}
+
+.scpt-field-wrap .mceIframeContainer {
+	background: #fff;
+}
+
+
+
+/* =Icon Madness
+-------------------------------------------------------------- */
+
+#scpt_icons dl {
+	float: left;
+	width: 125px;
+	padding: 10px 5px;
+	overflow:hidden;
+}
+#scpt_icons dt {
+	margin: 0 auto 3px;
+	padding: 0;
+	width: 64px;
+	height: 64px;
+	font-size: 64px;
+	line-height: 64px;
+	text-align: center;
+}
+#scpt_icons dd {
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	text-align: center;
+}

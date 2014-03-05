@@ -1,0 +1,172 @@
+.inside .control-group input[type="text"],
+.inside .control-group input[type="password"],
+.inside .control-group textarea {
+  width: 100%;
+  padding: 5px;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.inside .control-group select {
+  width: 100%;
+  padding: 2px;
+  resize: none;
+  height: 2em;
+}
+
+.inside .control-group .radio label {
+  float: left;
+  clear: left;
+  display: inline-block;
+  margin: 3px;
+}
+
+.inside .control-group .radio label input {
+  margin-right: 8px;
+}
+
+.inside .control-group textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.inside .control-group textarea:focus {
+  border-color: #BBB;
+  outline: none;
+  box-shadow: none;
+}
+
+.inside .control-group .wp-editor-wrap .mceIframeContainer {
+  background: #fff;
+}
+
+.inside .control-group {
+  position: relative;
+  padding: 15px 10px;
+  margin: 0 -10px;
+}
+
+.inside .control-group:first-child {
+  padding-top: 0;
+}
+
+.inside .control-group:last-child {
+  padding-bottom: 0;
+}
+
+.control-group:after, .image-placeholder:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.inside .control-group + .control-group {
+  border-top: #E8E8E8 solid 1px; }
+
+.control-label {
+  color: #333;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0;
+  display: inline-block;
+  vertical-align: text-bottom;
+  margin: 0 0 1em;
+}
+
+input[readonly].dev_note {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #333;
+  font-size: 10px;
+  width: 25%;
+  background: inherit;
+  border: 1px dotted #ccc;
+}
+
+.inside .help-text {
+  clear: both;
+  padding-top: 10px;
+  margin: 0;
+  color: #666;
+  font-style: italic;
+}
+
+.control-group .upload-button {
+  margin: 10px 0 0;
+  float: left;
+}
+
+.image-placeholder {
+  position: relative;
+  float: left;
+  clear: both;
+}
+
+.image-placeholder img {
+  display: block;
+  margin: 15px 0 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 200px;
+  float: left;
+  clear: both;
+  background: #fff;
+}
+
+.clear-attachment {
+  display: inline-block;
+  margin: 10px;
+  line-height: 24px;
+  color: #999;
+  cursor: pointer;
+}
+
+.clear-attachment:hover, .clear-attachment:active {
+  color: red;
+}
+
+.image-placeholder .remove-image {
+  background: url("../img/sprite.png") no-repeat scroll -54px -152px white;
+  display: none;
+  height: 22px;
+  width: 22px;
+  border-radius: 15px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 10px;
+  right: -10px;
+  line-height: 120px;
+  font-size: 3px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.image-placeholder:hover .remove-image {
+  display: block;
+}
+
+.map-image {
+  display: block;
+  max-width: 98%;
+}
+
+.auto-fold #adminmenu div.wp-menu-image {
+  width: 27px;
+  margin-right: 1px;
+}
+
+.inside .control-group  .wp-picker-container input[type="text"] {
+  width: inherit;
+  padding: 3px;
+}
+
+.inside .control-group .wp-picker-holder {
+  position: absolute;
+  z-index: 100;
+}
