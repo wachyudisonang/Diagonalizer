@@ -1,3 +1,9 @@
 #ignore personal stuff
 includes/framework/js_composer
 includes/framework/plugins/revslider.zip
+
+# OS generated files 
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
